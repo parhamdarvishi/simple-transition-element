@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 1500px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+.note {
+  animation-name: slidein;
+  animation-duration: 0.9s;
+  display: block;
+}
